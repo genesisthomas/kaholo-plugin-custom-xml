@@ -1,0 +1,36 @@
+{
+  "name": "xml",
+  "viewName": "XML",
+  "type": "executer",
+  "main": "app.js",
+  "execProgram": "node",
+  "exposeRoute": false,
+  "imgUrl": "logo.png",
+  "version": "1.0.0",
+  "description": "Kaholo plugin used to parse XML files.",
+  "category": [
+    "Basic Tools"
+  ],
+  "keywords": [
+    "xml",
+    "file",
+    "files",
+    "js",
+    "parse"
+  ],
+  "methods": [
+    {
+      "name": "parse",
+      "viewName": "Parse XML file",
+      "params": [
+        {
+          "name": "filePath",
+          "viewName": "XML File path",
+          "type": "string",
+          "required": true,
+          "description": "A XML file to parse and deliver in Final Result"
+        }
+      ]
+    }
+  ]
+}
